@@ -1,0 +1,32 @@
+body{
+	font-family: Verdana;
+	margin: 0 auto;
+	width: 1280px; 
+	height: 3186px;
+}
+
+.reviews{
+	display: flex;
+	padding: 3em;
+}
+.reviews img{
+	position: relative;
+}
+.Review_L{
+
+}
+.face_img img{
+	width: 100px;
+	border-radius: 100%;
+	background-color: #000;
+}
+.feedback{
+	width: 470px;
+	height: 120px;
+}
+.feedback p{
+	position: absolute;
+	top: 200px;
+	left: 20px;
+	width: 100%;
+}

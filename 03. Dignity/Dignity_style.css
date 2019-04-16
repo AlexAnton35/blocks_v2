@@ -1,0 +1,36 @@
+body{
+	font-family: Verdana;
+	margin: 0 auto;
+	width: 1280px; 
+	height: 3186px;
+}
+
+.dignity{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 3em;
+}
+.dignity table{
+	border-collapse: collapse;
+}
+.dignity p {
+	border-left: 1px solid lightgray;
+	padding: 3px;
+	margin: 7px;
+
+}
+.dignity_H2{
+	margin: 0 auto; 
+	text-align: center;
+	font-size: 30px;
+	width: 100%;
+}
+.list_1{
+	width: 50%;
+}
+.list_2{
+	width: 50%;
+}
+.img_align{
+	vertical-align: top;
+}
