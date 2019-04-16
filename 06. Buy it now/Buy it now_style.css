@@ -7,25 +7,47 @@ body{
 	font-family: Verdana;
 	width: 1280px; 
 	height: 3186px;
+	margin: 0 auto;
 
 }
 
 		/*Buy It Now*/
-.buy-it-now{
+.buy-it-now {
 	display: flex;
-	flex-wrap: wrap;
+    flex-wrap: wrap;
+	width: 100%;
+
 }
-} /*Меняет вид по какой-то причине */
-.buy-it-now ul{
-	width: 33.33%;
-	list-style: none;
+.buy-it-now .list{
+	width: 100%;
+	display: flex;
 }
 
-.buy-it-now h2{ 
+
+.buy-it-now h2{
 	width: 100%;
 	text-align: center;
-}
+	padding: 1em;
 
+}
+.buy-it-now ul{
+	list-style: none;
+}
+ 	/*Привязка к "земле"*/
+.list{
+	align-items: flex-end;
+}
+		/*Центрирование кнопки*/
+.button_center{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	list-style: none;
+	font-size: 20px;
+}
 
 		/*SKETCH*/
 .sketch{
@@ -46,6 +68,8 @@ body{
 	text-align: center;
 	font-size: 40px;
 	padding: 5px;
+	border-right: 2px solid #445162;
+	border-left: 2px solid #445162;
 }
 .sketch ul{
 	list-style: decimal;
@@ -59,10 +83,8 @@ body{
 	font-size: 20px;
 	margin: 0 auto;
 }
-/* #push для li что бы убрать маркер счета*/
-#push{
-	list-style: none; 
-}
+
+
 
 
 
