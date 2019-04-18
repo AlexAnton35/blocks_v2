@@ -7,14 +7,22 @@ body{
 .about{
 	display: flex;
 	
+	
 }
 .about_product{
 	width: 60%;
 	padding: 1em;
-	background-color: darkgray;
-	}
+	
+}
+.about_product h2{
+	color: #445161; 
+}
 .video{
 	width: 40%;
 	padding-left: 50px;
-	background-color: lightgray;
+		
+}
+.video iframe{
+	background-color: #445161; 
+	
 }
