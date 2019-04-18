@@ -16,11 +16,12 @@
 		background-color: #004B85;
 	}
 	.for-all p {
-		padding-left: 80px;
+		margin-left: 80px;
 	}
 	.for-all span {
 		display: block;
 		margin-top: 10px; 
+    margin-left: 80px;
 	}
 
 
@@ -38,7 +39,12 @@
        width: 50%;
    }
 
+   .feedback__name, .list__feedback{
+    background-color: lightgray;
+  }
 
+
+/*
     @media screen and (max-width: 768px) {
         .reveiws-list li {
             width: 100%;
@@ -47,4 +53,4 @@
         .reviews-section {
             padding: 20px;
         }
-    }
+    }*/
