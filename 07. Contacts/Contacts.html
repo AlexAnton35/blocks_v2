@@ -2,11 +2,94 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Header</title>
-	<link rel="stylesheet" href="style.css">
+	<title>Contacts</title>
+	<link rel="stylesheet" href="Contacts_style.css">
 </head>
 <body>
 	
+	<section class="contacts">
+		<h2>Contacts</h2>
+		<div class="feedback-form">
+			<div class="live-massage">
+				
+				<span class="your_name">
+					<form-field>
+						<input id="your-name-1" class="input_field_name" type="text">
+						<lable for="your-name-1">
+							<span>Your Name:</span>
+						</lable>
+					</form-field>
+				</span>
+
+				<span class="your_email">
+					<form-field>
+						<input id="your-email-1" class="input_field_email" type="email">
+						<lable for="your-email-1">
+							<span>Your Email:</span>
+						</lable>
+					</form-field>
+				</span>
+
+				<span class="your_massage">
+					<form-field>
+						<textarea id="your-massage-1" class="input_field_massage" type="text" ></textarea> 
+						
+						<!--Не маштабируется. cols - Работает row - нет, не отображает резульат 
+						<textarea id="your-massage-1" class="input_field_massage" type="text" row="50" cols="60"></textarea> 
+						 -->
+
+						<lable for="your-massage-1">
+							<span>Your Massage:</span>
+						</lable>
+					</form-field>
+				</span>
+
+
+				<span class="submit-button">
+					<form-field>
+						<input id="submit-button-1" class="input_submit_button" type="submit" value="SEND">
+						<!--<lable for="submit-button-1">
+							<span>Submit</span>
+						</lable>-->
+					</form-field>
+				</span>
+				
+			</div>
+
+
+			<div class="social_contacts">
+				
+				<ul>
+					<li>
+						<a href="">
+							<img src="img/skype icon07_contacts_.svg" alt="">
+							<p>here_your_login_skype</p>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<img src="img/icq icon07_contacts_.svg" alt="">
+							<p>279679659</p>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<img src="img/email icon07_contacts_.svg" alt="">
+							<p>psdhtmlcss@mail.ru</p>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<img src="img/phone icon07_contacts_.svg" alt="">
+							<p>80 00 4568 55 55</p>
+						</a>
+					</li>
+				</ul>
+				
+			</div>
+		</div>
+	</section>
+
 	
 	<!--Scripts-->
 	<!--Live Reload-->
