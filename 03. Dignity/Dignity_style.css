@@ -9,16 +9,22 @@ body{
 	display: flex;
 	flex-wrap: wrap;
 	padding: 3em;
+	background-color: lightgray;
 }
 .dignity table{
 	border-collapse: collapse;
 }
 .dignity p {
-	border-left: 1px solid lightgray;
+	border-left: 1px solid darkgray;
 	padding: 3px;
 	margin: 7px;
 
 }
+.dignity h2 {
+	color: #445161; 
+
+}
+
 .dignity_H2{
 	margin: 0 auto; 
 	text-align: center;
