@@ -11,6 +11,7 @@ body{
 
 }
 
+	/*Contacts*/
 .contacts {
 	background-color: #445162;
 	display: flex;
@@ -24,7 +25,7 @@ body{
 	color: white;
 }
 
-
+		/*Feedback*/
 .feedback-form{
 	margin: 0 auto;
 	display: flex;
@@ -36,7 +37,7 @@ body{
 	width: 50%;
 }
 
-
+	/*Input*/
 
 .input_field_name, .input_field_email{
 	width: 500px;
@@ -70,7 +71,7 @@ body{
 }
 
 
-
+	/*Social*/
 .social_contacts{
 	color: white;
 	
